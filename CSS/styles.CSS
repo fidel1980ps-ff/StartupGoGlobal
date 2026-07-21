@@ -81,3 +81,20 @@ ul{
     font-size: 1.5rem;
     color: var(--color-primary-dark);
 }
+
+/* contenedor del menu */
+.menu {
+    display: flex;
+    gap: var(--space-md);
+}
+
+.menu a {
+    font-weight: 600;
+    color: var(--color-text-soft);
+    padding: var(--space-xs) 0;
+}
+
+/* estado de los enlaces */
+.menu a:hover {
+    color: var(--color-primary);
+}
