@@ -98,3 +98,15 @@ ul{
 .menu a:hover {
     color: var(--color-primary);
 }
+
+.hero {
+    padding: var(--space-xl) 0;
+    
+}
+.hero h2 {
+    margin-top: 0;
+    margin-bottom: var(--space-sm);
+    front-side: 2.5rem;
+    max-width: 700px;
+    color: var(--color-primary-dark);
+}
